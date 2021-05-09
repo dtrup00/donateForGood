@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+    background-image: url(desktwo.jpg);
+    height: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'Itim', cursive;
+}
+
+label.logo{
+    color: antiquewhite;
+    font-size: 35px;
+    line-height: 80px;
+    padding-left:20px;
+    font-weight: bold;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: aquamarine;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    transition: .5s;
+    color: #0082e0;
+    background: yellow;
+}
+
+section{
+    border: 10px;
+    height: 90vh;
+    position: relative;
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+section.form{
+    align-items: center;
+}
+
+.container{
+    border: 10px;
+    width: 100%;
+    color: antiquewhite;
+    margin: auto;
+    font-family: 'Pangolin', cursive;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
